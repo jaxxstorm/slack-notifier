@@ -32,7 +32,7 @@ client.on :channel_created do |data|
       color: "#7CD197",
       title: "New Channel Created",
       fallback: "New Channel Created by <@#{data['channel']['creator']}>: <\##{data['channel']['id']}>",
-      text: "Creator by <@#{data['channel']['creator']}> Name: <\##{data['channel']['id']}>"
+      text: "Created by <@#{data['channel']['creator']}> Name: <\##{data['channel']['id']}>"
     }
     ],
   )
